@@ -1,0 +1,101 @@
+/* fonts
+font-family: 'Raleway', sans-serif;
+font-family: 'Lato', sans-serif;    */
+
+/* colors
+#EFD272 239, 210, 114
+#F3B663 243, 182, 99
+#8C531F 140, 83, 31
+#EFA147 239, 161, 71
+#0F0000 15, 0, 0   */
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+html {
+    color: #0F0000;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    background: #EFD272;
+    background-image: url("runnersunset.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+
+.container {
+    width: 1060px;
+    min-height: 750px;
+    margin: 10px auto;
+    background: rgba(140, 83, 31, .7);
+    border: 2px solid #EFA147;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+header {
+    margin: 0px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    padding: 5px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+p {
+    text-align: left;
+    margin: 20px;
+}
+
+form {
+    width: 80%;
+    min-height: 200px;
+    border: 2px solid #EFA147;
+    border-radius: 20px;
+    padding: 15px;
+    margin: 10px auto;
+    text-align: justify;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #0F0000;
+    font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+    font-size: 2em;
+    text-align: center;
+}
+
+footer {
+        width: 1050px;
+        height: 5px;
+    }

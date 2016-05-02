@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>
+        A. Cook's Lab 12 form
+    </title>
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Lato|Raleway:600' rel='styles' type='text/css'>
+
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Local Runner's Registration Form</h1>
+            <hr>
+            <nav>
+                <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="form.html">Form</a></li>
+                <li><a href="../index.html">Index</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <main>     
+            <form action="MAILTO:acook@mccdgm.net" method="post" enctype="text/plain">
+                First name:
+
+                <input type="text" name="firstname">
+
+                Last name:
+
+                <input type="text" name="lastname">
+                <br>
+                
+                Phone:
+                
+                <input type="text" name="phone">
+                
+                Email:
+                
+                <input type="text" name="email">
+                <br>
+                
+                Food Allergies (check the following):
+                <br>
+                For Gluten Free:
+                <input type="checkbox" name="glutenfree">
+                For Vegetarian:
+                <input type="checkbox" name="vegan">
+                Other Allergies?:
+                <input type="checkbox" name="other">
+                <input type="text" name="allergies">
+                
+                <br>Please select the number of people attending:
+                <br>
+                <input type="radio" name="count" value="1" checked> One
+                <br>
+                <input type="radio" name="count" value="2"> Two
+                <br>
+                <input type="radio" name="count" value="3"> Three
+                <br>
+                <input type="radio" name="count" value="4"> Four
+                <br>
+                <input type="radio" name="count" value="5"> Five
+                <br>
+                
+                <input type="submit" value="Send">
+                <input type="reset" value="Reset">
+            </form>
+            <footer>
+                <h5 style="float: right;">All images on this website are sourced from Pixabay.com</h5>
+            </footer>
+        </main>
+    </div>
+</body>
+
+</html>

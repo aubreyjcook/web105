@@ -1,0 +1,99 @@
+    * {
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    body {
+        background-color: cadetblue;
+        color: silver;
+        font-family: "Arial Black", Gadget, sans-serif;
+    }
+    
+    .container {
+        background-color: black;
+        width: 960px;
+        min-height: 600px;
+        border: 3px solid darkslateblue;
+        margin: 15px auto;
+        padding: 5px, 10px, 10px, 15px;
+    }
+    
+    main {
+        width: 960px;
+        min-height: 600px;
+        background-color: black;
+    }
+    
+    header{
+        width: 955px;
+        min-height: 100px;
+        background-color: darkslategray;
+        color: floralwhite;
+        border: double;
+        border-color: black;
+    }
+    
+    nav {
+        width: 360px;
+        min-height: 40px;
+        background-color: steelblue;
+        color: floralwhite;
+        float: right;
+        border: solid;
+        border-color: black;
+        text-align: center;
+        font-size: 28;
+    }
+
+    /* The nav and a styling below styles the links in the nav and footer. */
+    
+    nav a:link {
+        text-decoration: none;
+        }
+    
+    nav a:hover{
+        color: lightsteelblue;
+    }
+    
+    a {
+        color: whitesmoke;
+        text-decoration: none;
+    }
+    
+    /* This is the end of the link styling */
+    
+    /* These style the images on the page and create formatting for tiled placement */
+
+    figure {
+        width: 300px;
+        height: 220px;
+        padding: 10px 5px 5px 10px;
+        float:left;
+    }
+
+    figcaption {
+        text-align: center;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    /* This is the end of the image styling */
+
+    footer {
+        clear:both;
+        width: 954px;
+        height: 60px;
+        background-color: dimgray;
+        border: double;
+        border-color: black;
+    }
+    
+    /* these style all headings to match the page colors */
+    
+    h1, h2, h3, h4, h5, h6 {
+        color: ghostwhite;
+        margin: 5px;
+    }

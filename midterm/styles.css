@@ -1,0 +1,107 @@
+    * {
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    body {
+        background-color: cadetblue;
+        color: silver;
+        font-family: "Arial Black", Gadget, sans-serif;
+    }
+    
+    .container {
+        background-color: black;
+        width: 960px;
+        min-height: 600px;
+        border: 3px solid darkslateblue;
+        margin: 15px auto;
+        padding: 5px, 10px, 10px, 15px;
+    }
+    
+    main {
+        width: 960px;
+        min-height: 440px;
+        background-color: black;
+    }
+    
+    header{
+        width: 955px;
+        min-height: 100px;
+        background-color: darkslategray;
+        color: floralwhite;
+        border: double;
+        border-color: black;
+    }
+    
+    nav {
+        width: 150px;
+        min-height: 400px;
+        background-color: steelblue;
+        color: floralwhite;
+        float: left;
+        border: double;
+        border-color: black;
+        font-size: 24px;
+    }
+
+    /* The nav and a styling below styles the links in the nav and footer. */
+    
+    nav a:link {
+        text-decoration: none;
+        float: left;
+        clear: both;
+        text-align: center;
+    }
+    
+    nav a:hover{
+        color: lightsteelblue;
+    }
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: 200px;
+        background-color: #f1f1f1;
+    } 
+    
+    li a {
+        display: block;
+        color: whitesmoke;
+        padding: 8px 32px 8px 16px;
+        text-decoration: none;
+    }
+
+    li a:hover {
+        background-color: #555;
+        color: lightblue;
+    }
+    
+    /* This is the end of the link styling */
+    
+    figure {
+        clear: both;
+        padding: 5px 30px 5px 60px;
+        margin: 5px auto;
+        display: inline;
+    }
+    
+    footer {
+        width: 955px;
+        height: 60px;
+        background-color: dimgray;
+        border: double;
+        border-color: black;
+    }
+    
+    p {
+        padding-left: 180px;
+        padding-right: 30px;
+        margin: 10px auto;
+        text-align: justify;
+    }
+    
+    h1, h2, h3, h4, h5, h6 {
+        color: ghostwhite;
+        margin: 5px;
+    }

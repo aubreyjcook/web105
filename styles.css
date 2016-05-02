@@ -1,0 +1,47 @@
+   /* fonts
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Lato', sans-serif;    */
+
+    * {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    body {
+        background: darkkhaki;
+        font-family: 'Lato', sans-serif;
+    }
+
+    .container {
+    
+    }
+
+    header {
+        margin: 0px auto;
+        padding: 20px;
+        text-align: center;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        color: firebrick;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    ul {
+        list-style-type: circle;
+        margin: 0;
+        padding: 0;
+        width: 200px;
+    } 
+    
+    li a {
+        display: block;
+        color: darkslategray;
+        padding: 8px 32px 8px 16px;
+        text-decoration: none;
+    }
+
+    li a:hover {
+        background-color: #555;
+        color: darkred;
+    }
